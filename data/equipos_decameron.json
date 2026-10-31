@@ -1,0 +1,2706 @@
+{
+ "proyecto": "PROYECTO DECAMERON SALINITAS",
+ "tipos": [
+  {
+   "nombre": "LÁMPARAS",
+   "titulo": "LÁMPARAS DE EMERGENCIA",
+   "criterios": [
+    "ESTADO GENERAL",
+    "ILUMINACIÓN",
+    "CONEXIÓN",
+    "ESTADO FÍSICO"
+   ],
+   "equipos": [
+    {
+     "numero": 1,
+     "zona": "",
+     "ubicacion": "Cocina La Mar"
+    },
+    {
+     "numero": 2,
+     "zona": "",
+     "ubicacion": "Cocina La Mar"
+    },
+    {
+     "numero": 3,
+     "zona": "",
+     "ubicacion": "Cuarto Frío La Mar"
+    },
+    {
+     "numero": 4,
+     "zona": "",
+     "ubicacion": "Restaurante La Mar \"EXIT\""
+    },
+    {
+     "numero": 5,
+     "zona": "",
+     "ubicacion": "Lavalozas La Mar"
+    },
+    {
+     "numero": 6,
+     "zona": "",
+     "ubicacion": "Sala de video juegos"
+    },
+    {
+     "numero": 7,
+     "zona": "",
+     "ubicacion": "Cocina Oliva"
+    },
+    {
+     "numero": 8,
+     "zona": "",
+     "ubicacion": "Cuarto Frío Oliva"
+    },
+    {
+     "numero": 9,
+     "zona": "",
+     "ubicacion": "Cocina Oliva"
+    },
+    {
+     "numero": 10,
+     "zona": "",
+     "ubicacion": "Restaurante Oliva \"EXIT\""
+    },
+    {
+     "numero": 11,
+     "zona": "",
+     "ubicacion": "Baños Restaurante Oliva \"EXIT\""
+    },
+    {
+     "numero": 12,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1107-1207"
+    },
+    {
+     "numero": 13,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1139-1239"
+    },
+    {
+     "numero": 14,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 1 1123-1223"
+    },
+    {
+     "numero": 15,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1150-1250"
+    },
+    {
+     "numero": 16,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1250-1350"
+    },
+    {
+     "numero": 17,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 1351-1350"
+    },
+    {
+     "numero": 18,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 1340-1339"
+    },
+    {
+     "numero": 19,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 1324-1323"
+    },
+    {
+     "numero": 20,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1223-1323"
+    },
+    {
+     "numero": 21,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 1308-1307"
+    },
+    {
+     "numero": 22,
+     "zona": "",
+     "ubicacion": "Edif. 1 Gradas 1207-1307"
+    },
+    {
+     "numero": 23,
+     "zona": "",
+     "ubicacion": "Boutique"
+    },
+    {
+     "numero": 24,
+     "zona": "",
+     "ubicacion": "Boutique Caja"
+    },
+    {
+     "numero": 25,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 1"
+    },
+    {
+     "numero": 26,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 1"
+    },
+    {
+     "numero": 27,
+     "zona": "",
+     "ubicacion": "Chack Balam Gradas de Servicio"
+    },
+    {
+     "numero": 28,
+     "zona": "",
+     "ubicacion": "Chack Balam Cocina Nivel 2"
+    },
+    {
+     "numero": 29,
+     "zona": "",
+     "ubicacion": "Chack Balam Pantri Cuarto Frio"
+    },
+    {
+     "numero": 30,
+     "zona": "",
+     "ubicacion": "Chack Balam Cocina Nivel 2"
+    },
+    {
+     "numero": 31,
+     "zona": "",
+     "ubicacion": "Chack Balam Pasteleria \"EXIT\""
+    },
+    {
+     "numero": 32,
+     "zona": "",
+     "ubicacion": "Chack Balam Gradas Nivel 2 \"EXIT\""
+    },
+    {
+     "numero": 33,
+     "zona": "",
+     "ubicacion": "Bar Akan Baños"
+    },
+    {
+     "numero": 34,
+     "zona": "",
+     "ubicacion": "Bar Akan Área de Bar"
+    },
+    {
+     "numero": 35,
+     "zona": "",
+     "ubicacion": "Bar Akan Área de Bar"
+    },
+    {
+     "numero": 36,
+     "zona": "",
+     "ubicacion": "Steak House \"EXIT\""
+    },
+    {
+     "numero": 37,
+     "zona": "",
+     "ubicacion": "Steak House buffet"
+    },
+    {
+     "numero": 38,
+     "zona": "",
+     "ubicacion": "Steak House"
+    },
+    {
+     "numero": 39,
+     "zona": "",
+     "ubicacion": "Steak House Lavalozas"
+    },
+    {
+     "numero": 40,
+     "zona": "",
+     "ubicacion": "Lobby 1 \"EXIT\""
+    },
+    {
+     "numero": 41,
+     "zona": "",
+     "ubicacion": "Lobby 1 Recepcion"
+    },
+    {
+     "numero": 42,
+     "zona": "",
+     "ubicacion": "Lobby 1 Frente a Recepción"
+    },
+    {
+     "numero": 43,
+     "zona": "",
+     "ubicacion": "Lobby 1 Baños Hombres"
+    },
+    {
+     "numero": 44,
+     "zona": "",
+     "ubicacion": "Salon Tulum"
+    },
+    {
+     "numero": 45,
+     "zona": "",
+     "ubicacion": "Salon Tulum"
+    },
+    {
+     "numero": 46,
+     "zona": "",
+     "ubicacion": "Salon Tulum"
+    },
+    {
+     "numero": 47,
+     "zona": "",
+     "ubicacion": "Salon Tajin \"EXIT\""
+    },
+    {
+     "numero": 48,
+     "zona": "",
+     "ubicacion": "Salon Tajin \"EXIT\""
+    },
+    {
+     "numero": 49,
+     "zona": "",
+     "ubicacion": "Salon Koba \"EXIT\""
+    },
+    {
+     "numero": 50,
+     "zona": "",
+     "ubicacion": "Salon Koba \"EXIT\""
+    },
+    {
+     "numero": 51,
+     "zona": "",
+     "ubicacion": "Bodega Expocentro"
+    },
+    {
+     "numero": 52,
+     "zona": "",
+     "ubicacion": "Bodega Expocentro \"EXIT\""
+    },
+    {
+     "numero": 53,
+     "zona": "",
+     "ubicacion": "Centro de Negocios"
+    },
+    {
+     "numero": 54,
+     "zona": "",
+     "ubicacion": "Entrada Salón Copan"
+    },
+    {
+     "numero": 55,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 56,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 57,
+     "zona": "",
+     "ubicacion": "Salon Copan"
+    },
+    {
+     "numero": 58,
+     "zona": "",
+     "ubicacion": "Salon Kukulkan"
+    },
+    {
+     "numero": 59,
+     "zona": "",
+     "ubicacion": "Salon Kukulkan"
+    },
+    {
+     "numero": 60,
+     "zona": "",
+     "ubicacion": "Entrada Salon Ixchel \"EXIT\""
+    },
+    {
+     "numero": 61,
+     "zona": "",
+     "ubicacion": "Salon Ixchel \"EXIT\""
+    },
+    {
+     "numero": 62,
+     "zona": "",
+     "ubicacion": "Salon Ixchel \"EXIT\""
+    },
+    {
+     "numero": 63,
+     "zona": "",
+     "ubicacion": "Salon Ixchel"
+    },
+    {
+     "numero": 64,
+     "zona": "",
+     "ubicacion": "Entrada a Lavanderia"
+    },
+    {
+     "numero": 65,
+     "zona": "",
+     "ubicacion": "Bodega de Ama de Llaves"
+    },
+    {
+     "numero": 66,
+     "zona": "",
+     "ubicacion": "Cocina de empleados"
+    },
+    {
+     "numero": 67,
+     "zona": "",
+     "ubicacion": "Cocina de Empleados"
+    },
+    {
+     "numero": 68,
+     "zona": "",
+     "ubicacion": "Tienda de Empleados"
+    },
+    {
+     "numero": 69,
+     "zona": "",
+     "ubicacion": "Oficina de Compras"
+    },
+    {
+     "numero": 70,
+     "zona": "",
+     "ubicacion": "Recursos Humanos"
+    },
+    {
+     "numero": 71,
+     "zona": "",
+     "ubicacion": "Recursos Humanos"
+    },
+    {
+     "numero": 72,
+     "zona": "",
+     "ubicacion": "Sistemas"
+    },
+    {
+     "numero": 73,
+     "zona": "",
+     "ubicacion": "Sistemas"
+    },
+    {
+     "numero": 74,
+     "zona": "",
+     "ubicacion": "Contabilidad \"EXIT\""
+    },
+    {
+     "numero": 75,
+     "zona": "",
+     "ubicacion": "Bodega de Bebidas"
+    },
+    {
+     "numero": 76,
+     "zona": "",
+     "ubicacion": "Bodega de Alimentos"
+    },
+    {
+     "numero": 77,
+     "zona": "",
+     "ubicacion": "Bodega de Alimentos"
+    },
+    {
+     "numero": 78,
+     "zona": "",
+     "ubicacion": "Salon Kabah"
+    },
+    {
+     "numero": 79,
+     "zona": "",
+     "ubicacion": "Salon Kabah"
+    },
+    {
+     "numero": 80,
+     "zona": "",
+     "ubicacion": "Salon Maya"
+    },
+    {
+     "numero": 81,
+     "zona": "",
+     "ubicacion": "Salon Maya"
+    },
+    {
+     "numero": 82,
+     "zona": "",
+     "ubicacion": "Salon Tikal"
+    },
+    {
+     "numero": 83,
+     "zona": "",
+     "ubicacion": "Salon Tikal"
+    },
+    {
+     "numero": 84,
+     "zona": "",
+     "ubicacion": "Salon Uxmal"
+    },
+    {
+     "numero": 85,
+     "zona": "",
+     "ubicacion": "Salon Uxmal"
+    },
+    {
+     "numero": 86,
+     "zona": "",
+     "ubicacion": "Pasillo Bodega C. de Convenciones"
+    },
+    {
+     "numero": 87,
+     "zona": "",
+     "ubicacion": "Bodega Centro de Convenciones"
+    },
+    {
+     "numero": 88,
+     "zona": "",
+     "ubicacion": "Cocina Centro de Convenciones"
+    },
+    {
+     "numero": 89,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2106-2206"
+    },
+    {
+     "numero": 90,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2120-2220"
+    },
+    {
+     "numero": 91,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 1 2135-2136"
+    },
+    {
+     "numero": 92,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 1 2140-2141"
+    },
+    {
+     "numero": 93,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2141-2241"
+    },
+    {
+     "numero": 94,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 2 2241-2242"
+    },
+    {
+     "numero": 95,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2241-2341"
+    },
+    {
+     "numero": 96,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2220-2320"
+    },
+    {
+     "numero": 97,
+     "zona": "",
+     "ubicacion": "Edif. 2 gradas 2206-2306"
+    },
+    {
+     "numero": 98,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2306-2307"
+    },
+    {
+     "numero": 99,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2320-2321"
+    },
+    {
+     "numero": 100,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2341-2342"
+    },
+    {
+     "numero": 101,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 1 3106 \"EXIT\""
+    },
+    {
+     "numero": 102,
+     "zona": "",
+     "ubicacion": "Edif. 3 gradas 3106-3206"
+    },
+    {
+     "numero": 103,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 2 3207 \"EXIT\""
+    },
+    {
+     "numero": 104,
+     "zona": "",
+     "ubicacion": "Edif. 3 gradas 3206-3306"
+    },
+    {
+     "numero": 105,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 3 3307 \"EXIT\""
+    },
+    {
+     "numero": 106,
+     "zona": "",
+     "ubicacion": "Edif. 3 gradas 3306-3406"
+    },
+    {
+     "numero": 107,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 4 3407 \"EXIT\""
+    },
+    {
+     "numero": 108,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 6 4607 \"EXIT\""
+    },
+    {
+     "numero": 109,
+     "zona": "",
+     "ubicacion": "Edif. 4 gradas 4506-4606"
+    },
+    {
+     "numero": 110,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 5 4507 \"EXIT\""
+    },
+    {
+     "numero": 111,
+     "zona": "",
+     "ubicacion": "Edif. 4 gradas 4406-4506"
+    },
+    {
+     "numero": 112,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 4 4407 \"EXIT\""
+    },
+    {
+     "numero": 113,
+     "zona": "",
+     "ubicacion": "Edif. 4 gradas 4306-4406"
+    },
+    {
+     "numero": 114,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 3 4307 \"EXIT\""
+    },
+    {
+     "numero": 115,
+     "zona": "",
+     "ubicacion": "Edif. 4 gradas 4206-4306"
+    },
+    {
+     "numero": 116,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 2 4207 \"EXIT\""
+    },
+    {
+     "numero": 117,
+     "zona": "",
+     "ubicacion": "Edif. 4 gradas 4106-4206"
+    },
+    {
+     "numero": 118,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 1 4106 \"EXIT\""
+    },
+    {
+     "numero": 119,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5107-5108"
+    },
+    {
+     "numero": 120,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5107-5207"
+    },
+    {
+     "numero": 121,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5110-5111"
+    },
+    {
+     "numero": 122,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5115-5116"
+    },
+    {
+     "numero": 123,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5115-5215"
+    },
+    {
+     "numero": 124,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5119-5120"
+    },
+    {
+     "numero": 125,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5123-5124"
+    },
+    {
+     "numero": 126,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5128-5129"
+    },
+    {
+     "numero": 127,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5135-5136"
+    },
+    {
+     "numero": 128,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5128-5228"
+    },
+    {
+     "numero": 129,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5235-5236"
+    },
+    {
+     "numero": 130,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5229-5230"
+    },
+    {
+     "numero": 131,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5228-5328"
+    },
+    {
+     "numero": 132,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5223-5224"
+    },
+    {
+     "numero": 133,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5219-5220"
+    },
+    {
+     "numero": 134,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5215-5315"
+    },
+    {
+     "numero": 135,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5214-5215"
+    },
+    {
+     "numero": 136,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5210-5211"
+    },
+    {
+     "numero": 137,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5206-5207"
+    },
+    {
+     "numero": 138,
+     "zona": "",
+     "ubicacion": "Edif. 5 gradas 5207-5307"
+    },
+    {
+     "numero": 139,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5306-5307"
+    },
+    {
+     "numero": 140,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5310-5311"
+    },
+    {
+     "numero": 141,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5314-5315"
+    },
+    {
+     "numero": 142,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5319-5320"
+    },
+    {
+     "numero": 143,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5323-5324"
+    },
+    {
+     "numero": 144,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5329-5330"
+    },
+    {
+     "numero": 145,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5335-5336"
+    },
+    {
+     "numero": 146,
+     "zona": "",
+     "ubicacion": "Food Court Entrada a Cocina"
+    },
+    {
+     "numero": 147,
+     "zona": "",
+     "ubicacion": "Cocina Food Court"
+    },
+    {
+     "numero": 148,
+     "zona": "",
+     "ubicacion": "Cocina Food Court"
+    },
+    {
+     "numero": 149,
+     "zona": "",
+     "ubicacion": "Cocina Food Court Pasillo"
+    },
+    {
+     "numero": 150,
+     "zona": "",
+     "ubicacion": "Food Court Pantri"
+    },
+    {
+     "numero": 151,
+     "zona": "",
+     "ubicacion": "Entrada Food Court \"EXIT\""
+    },
+    {
+     "numero": 152,
+     "zona": "",
+     "ubicacion": "Restaurante Thai \"EXIT\""
+    },
+    {
+     "numero": 153,
+     "zona": "",
+     "ubicacion": "Lobby 2 \"EXIT\""
+    },
+    {
+     "numero": 154,
+     "zona": "",
+     "ubicacion": "Boutique Lobby 2"
+    },
+    {
+     "numero": 155,
+     "zona": "",
+     "ubicacion": "Recepcion Lobby 2"
+    },
+    {
+     "numero": 156,
+     "zona": "",
+     "ubicacion": "Bodega de jardinería"
+    },
+    {
+     "numero": 157,
+     "zona": "",
+     "ubicacion": "Taller de Soldadura"
+    },
+    {
+     "numero": 158,
+     "zona": "",
+     "ubicacion": "Oficina de Mantenimiento"
+    },
+    {
+     "numero": 159,
+     "zona": "",
+     "ubicacion": "Bodega de Mantenimiento"
+    },
+    {
+     "numero": 160,
+     "zona": "",
+     "ubicacion": "Cocina Empleados"
+    },
+    {
+     "numero": 161,
+     "zona": "",
+     "ubicacion": "Bodega Expocentro"
+    },
+    {
+     "numero": 162,
+     "zona": "",
+     "ubicacion": "Lobby 1 \"EXIT\""
+    },
+    {
+     "numero": 163,
+     "zona": "",
+     "ubicacion": "Baños Damas Lobby 1"
+    },
+    {
+     "numero": 164,
+     "zona": "",
+     "ubicacion": "Atencion al Cliente Lobby 1"
+    },
+    {
+     "numero": 165,
+     "zona": "",
+     "ubicacion": "Cocina C. de Convenciones"
+    },
+    {
+     "numero": 166,
+     "zona": "",
+     "ubicacion": "Cuarto Eléctrico la Mar"
+    },
+    {
+     "numero": 167,
+     "zona": "",
+     "ubicacion": "Filtros1"
+    },
+    {
+     "numero": 168,
+     "zona": "",
+     "ubicacion": "Filtros2"
+    },
+    {
+     "numero": 169,
+     "zona": "",
+     "ubicacion": "Planta Eléctrica"
+    },
+    {
+     "numero": 170,
+     "zona": "",
+     "ubicacion": "Planta Eléctrica 2"
+    },
+    {
+     "numero": 171,
+     "zona": "",
+     "ubicacion": "Generador 1"
+    },
+    {
+     "numero": 172,
+     "zona": "",
+     "ubicacion": "Generador2"
+    },
+    {
+     "numero": 173,
+     "zona": "",
+     "ubicacion": "Generador 3"
+    },
+    {
+     "numero": 174,
+     "zona": "",
+     "ubicacion": "Generador 4"
+    },
+    {
+     "numero": 175,
+     "zona": "",
+     "ubicacion": "Generador 5"
+    },
+    {
+     "numero": 176,
+     "zona": "",
+     "ubicacion": "Generador 5"
+    },
+    {
+     "numero": 177,
+     "zona": "",
+     "ubicacion": "CALDERAS 1"
+    },
+    {
+     "numero": 178,
+     "zona": "",
+     "ubicacion": "CALDERAS 1"
+    },
+    {
+     "numero": 179,
+     "zona": "",
+     "ubicacion": "CALDERAS 2"
+    },
+    {
+     "numero": 180,
+     "zona": "",
+     "ubicacion": "CARPINTERIA"
+    },
+    {
+     "numero": 181,
+     "zona": "",
+     "ubicacion": "CARPINTERIA"
+    },
+    {
+     "numero": 182,
+     "zona": "",
+     "ubicacion": "Cuarto eléctrico GERENCIA"
+    },
+    {
+     "numero": 183,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 36"
+    },
+    {
+     "numero": 184,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 37"
+    },
+    {
+     "numero": 185,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 38"
+    },
+    {
+     "numero": 186,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 39"
+    },
+    {
+     "numero": 187,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 26"
+    },
+    {
+     "numero": 188,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 27"
+    },
+    {
+     "numero": 189,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 28"
+    },
+    {
+     "numero": 190,
+     "zona": "",
+     "ubicacion": "Say 2"
+    },
+    {
+     "numero": 191,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 2 guardalino 3207 - 3206"
+    },
+    {
+     "numero": 192,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 2 guardalino 4207 - 4206"
+    },
+    {
+     "numero": 193,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 guardalino 5115 - 5114"
+    },
+    {
+     "numero": 194,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 guardalino 5129 - 5128"
+    },
+    {
+     "numero": 195,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas THAI"
+    },
+    {
+     "numero": 196,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas THAI"
+    },
+    {
+     "numero": 197,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas AKAN"
+    },
+    {
+     "numero": 198,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas AKAN"
+    },
+    {
+     "numero": 199,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas MAYA"
+    },
+    {
+     "numero": 200,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas MAYA"
+    },
+    {
+     "numero": 201,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas OLIVA"
+    },
+    {
+     "numero": 202,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas LA MAR"
+    },
+    {
+     "numero": 203,
+     "zona": "",
+     "ubicacion": "Talento humano"
+    },
+    {
+     "numero": 204,
+     "zona": "",
+     "ubicacion": "Talento humano"
+    },
+    {
+     "numero": 205,
+     "zona": "",
+     "ubicacion": "Compras"
+    }
+   ]
+  },
+  {
+   "nombre": "DETECTORES",
+   "titulo": "DETECTORES DE HUMO",
+   "criterios": [
+    "ESTADO GENERAL",
+    "BATERÍA",
+    "COMPLETO / INTEGRIDAD",
+    "ESTADO FÍSICO"
+   ],
+   "equipos": [
+    {
+     "numero": 1,
+     "zona": "",
+     "ubicacion": "Caseta de vigilancia"
+    },
+    {
+     "numero": 2,
+     "zona": "",
+     "ubicacion": "La Mar Mesas"
+    },
+    {
+     "numero": 3,
+     "zona": "",
+     "ubicacion": "Bomba Piscina La Mar"
+    },
+    {
+     "numero": 4,
+     "zona": "",
+     "ubicacion": "Bar La Mar"
+    },
+    {
+     "numero": 5,
+     "zona": "",
+     "ubicacion": "Baños Hombres La Mar"
+    },
+    {
+     "numero": 6,
+     "zona": "",
+     "ubicacion": "Baños Mujeres La Mar"
+    },
+    {
+     "numero": 7,
+     "zona": "",
+     "ubicacion": "Restaurante Oliva (mesas)"
+    },
+    {
+     "numero": 8,
+     "zona": "",
+     "ubicacion": "Restaurante Oliva (mesas)"
+    },
+    {
+     "numero": 9,
+     "zona": "",
+     "ubicacion": "Cuarto Frio Oliva"
+    },
+    {
+     "numero": 10,
+     "zona": "",
+     "ubicacion": "cocina oliva"
+    },
+    {
+     "numero": 11,
+     "zona": "",
+     "ubicacion": "Bar Oliva"
+    },
+    {
+     "numero": 12,
+     "zona": "",
+     "ubicacion": "Boutique"
+    },
+    {
+     "numero": 13,
+     "zona": "",
+     "ubicacion": "Baños Hombres Boutique"
+    },
+    {
+     "numero": 14,
+     "zona": "",
+     "ubicacion": "Baños Mujeres Boutique"
+    },
+    {
+     "numero": 15,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 1 nivel"
+    },
+    {
+     "numero": 16,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 1 nivel"
+    },
+    {
+     "numero": 17,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel"
+    },
+    {
+     "numero": 18,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel (Pantrie)"
+    },
+    {
+     "numero": 19,
+     "zona": "",
+     "ubicacion": "Chack Balam Cuarto frío"
+    },
+    {
+     "numero": 20,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel"
+    },
+    {
+     "numero": 21,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel"
+    },
+    {
+     "numero": 22,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel"
+    },
+    {
+     "numero": 23,
+     "zona": "",
+     "ubicacion": "Chack Balam Restaurant 2 nivel"
+    },
+    {
+     "numero": 24,
+     "zona": "",
+     "ubicacion": "Pasillo cocina Chack Balam 2 nivel"
+    },
+    {
+     "numero": 25,
+     "zona": "",
+     "ubicacion": "Pastelería Chack Balam"
+    },
+    {
+     "numero": 26,
+     "zona": "",
+     "ubicacion": "Gimnasio"
+    },
+    {
+     "numero": 27,
+     "zona": "",
+     "ubicacion": "Gimnasio"
+    },
+    {
+     "numero": 28,
+     "zona": "",
+     "ubicacion": "Steak House mesas"
+    },
+    {
+     "numero": 29,
+     "zona": "",
+     "ubicacion": "Steak House"
+    },
+    {
+     "numero": 30,
+     "zona": "",
+     "ubicacion": "Steak House Cuarto Frio"
+    },
+    {
+     "numero": 31,
+     "zona": "",
+     "ubicacion": "Baños Steak House"
+    },
+    {
+     "numero": 32,
+     "zona": "",
+     "ubicacion": "Steak House cocina"
+    },
+    {
+     "numero": 33,
+     "zona": "",
+     "ubicacion": "Lobby 1 Counter"
+    },
+    {
+     "numero": 34,
+     "zona": "",
+     "ubicacion": "Lobby 1 Recepcion"
+    },
+    {
+     "numero": 35,
+     "zona": "",
+     "ubicacion": "Lobby 1 Sala de Reuniones"
+    },
+    {
+     "numero": 36,
+     "zona": "",
+     "ubicacion": "Lobby 1 Baños Mujeres"
+    },
+    {
+     "numero": 37,
+     "zona": "",
+     "ubicacion": "Lobby 1 Baños Hombres"
+    },
+    {
+     "numero": 38,
+     "zona": "",
+     "ubicacion": "Lobby 1 Decameron Explorer"
+    },
+    {
+     "numero": 39,
+     "zona": "",
+     "ubicacion": "Salon Tulum"
+    },
+    {
+     "numero": 40,
+     "zona": "",
+     "ubicacion": "Salon Tajin"
+    },
+    {
+     "numero": 41,
+     "zona": "",
+     "ubicacion": "Salon Koba"
+    },
+    {
+     "numero": 42,
+     "zona": "",
+     "ubicacion": "Cabina expocentro"
+    },
+    {
+     "numero": 43,
+     "zona": "",
+     "ubicacion": "Bodega Expocentro"
+    },
+    {
+     "numero": 44,
+     "zona": "",
+     "ubicacion": "Pasillo Expocentro"
+    },
+    {
+     "numero": 45,
+     "zona": "",
+     "ubicacion": "Centro de Negocios"
+    },
+    {
+     "numero": 46,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 47,
+     "zona": "",
+     "ubicacion": "Salon Copan"
+    },
+    {
+     "numero": 48,
+     "zona": "",
+     "ubicacion": "Cabina DJ Salon Ixchell"
+    },
+    {
+     "numero": 49,
+     "zona": "",
+     "ubicacion": "Salon Ixchell"
+    },
+    {
+     "numero": 50,
+     "zona": "",
+     "ubicacion": "Salon Ixchell"
+    },
+    {
+     "numero": 51,
+     "zona": "",
+     "ubicacion": "Salon Ixchell"
+    },
+    {
+     "numero": 52,
+     "zona": "",
+     "ubicacion": "Salon Ixchell"
+    },
+    {
+     "numero": 53,
+     "zona": "",
+     "ubicacion": "Salon Ixchel Baños Hombres"
+    },
+    {
+     "numero": 54,
+     "zona": "",
+     "ubicacion": "Salon Ixchel Baños Mujeres"
+    },
+    {
+     "numero": 55,
+     "zona": "",
+     "ubicacion": "Camerinos de Hombres"
+    },
+    {
+     "numero": 56,
+     "zona": "",
+     "ubicacion": "Camerinos de Mujeres"
+    },
+    {
+     "numero": 57,
+     "zona": "",
+     "ubicacion": "Sastrería"
+    },
+    {
+     "numero": 58,
+     "zona": "",
+     "ubicacion": "Calderas Lavanderia"
+    },
+    {
+     "numero": 59,
+     "zona": "",
+     "ubicacion": "Pasillo Ama de LLaves"
+    },
+    {
+     "numero": 60,
+     "zona": "",
+     "ubicacion": "Entrada Lavanderia"
+    },
+    {
+     "numero": 61,
+     "zona": "",
+     "ubicacion": "Cuarto de lavandería"
+    },
+    {
+     "numero": 62,
+     "zona": "",
+     "ubicacion": "Cuarto de lavandería"
+    },
+    {
+     "numero": 63,
+     "zona": "",
+     "ubicacion": "Oficina Ama de LLaves"
+    },
+    {
+     "numero": 64,
+     "zona": "",
+     "ubicacion": "Bodega Ama de LLaves"
+    },
+    {
+     "numero": 65,
+     "zona": "",
+     "ubicacion": "Cafetería empleados"
+    },
+    {
+     "numero": 66,
+     "zona": "",
+     "ubicacion": "Cafeteria Empleados"
+    },
+    {
+     "numero": 67,
+     "zona": "",
+     "ubicacion": "Bodega de Cocina Empleados"
+    },
+    {
+     "numero": 68,
+     "zona": "",
+     "ubicacion": "Tienda de Empleados"
+    },
+    {
+     "numero": 69,
+     "zona": "",
+     "ubicacion": "Tienda de Empleados"
+    },
+    {
+     "numero": 70,
+     "zona": "",
+     "ubicacion": "Bodega de empleados"
+    },
+    {
+     "numero": 71,
+     "zona": "",
+     "ubicacion": "Sistemas"
+    },
+    {
+     "numero": 72,
+     "zona": "",
+     "ubicacion": "Compras"
+    },
+    {
+     "numero": 73,
+     "zona": "",
+     "ubicacion": "Contabilidad"
+    },
+    {
+     "numero": 74,
+     "zona": "",
+     "ubicacion": "Contabilidad Cocina"
+    },
+    {
+     "numero": 75,
+     "zona": "",
+     "ubicacion": "Bodega de bebidas 1"
+    },
+    {
+     "numero": 76,
+     "zona": "",
+     "ubicacion": "Bodega de Bebidas 2"
+    },
+    {
+     "numero": 77,
+     "zona": "",
+     "ubicacion": "Bodega de Helados"
+    },
+    {
+     "numero": 78,
+     "zona": "",
+     "ubicacion": "Oficina de Costos"
+    },
+    {
+     "numero": 79,
+     "zona": "",
+     "ubicacion": "Oficina de Costos"
+    },
+    {
+     "numero": 80,
+     "zona": "",
+     "ubicacion": "Oficina de Costos"
+    },
+    {
+     "numero": 81,
+     "zona": "",
+     "ubicacion": "Bodega Almacen de Alimentos"
+    },
+    {
+     "numero": 82,
+     "zona": "",
+     "ubicacion": "Almacen de Alimentos"
+    },
+    {
+     "numero": 83,
+     "zona": "",
+     "ubicacion": "Almacen de Alimentos"
+    },
+    {
+     "numero": 84,
+     "zona": "",
+     "ubicacion": "Almacen de Alimentos"
+    },
+    {
+     "numero": 85,
+     "zona": "",
+     "ubicacion": "Almacen de Alimentos"
+    },
+    {
+     "numero": 86,
+     "zona": "",
+     "ubicacion": "Salon Maya"
+    },
+    {
+     "numero": 87,
+     "zona": "",
+     "ubicacion": "Salon Kabah"
+    },
+    {
+     "numero": 88,
+     "zona": "",
+     "ubicacion": "Salon tikal"
+    },
+    {
+     "numero": 89,
+     "zona": "",
+     "ubicacion": "Salon Tikal"
+    },
+    {
+     "numero": 90,
+     "zona": "",
+     "ubicacion": "Salon Uxmal"
+    },
+    {
+     "numero": 91,
+     "zona": "",
+     "ubicacion": "Pasillo UXMAL"
+    },
+    {
+     "numero": 92,
+     "zona": "",
+     "ubicacion": "Enfermería"
+    },
+    {
+     "numero": 93,
+     "zona": "",
+     "ubicacion": "Centro de Convenciones (Frente a enfermería)"
+    },
+    {
+     "numero": 94,
+     "zona": "",
+     "ubicacion": "Oficina Centro de Convenciones"
+    },
+    {
+     "numero": 95,
+     "zona": "",
+     "ubicacion": "Cocina Centro de Convenciones"
+    },
+    {
+     "numero": 96,
+     "zona": "",
+     "ubicacion": "food Court Mesas"
+    },
+    {
+     "numero": 97,
+     "zona": "",
+     "ubicacion": "food Court Mesas"
+    },
+    {
+     "numero": 98,
+     "zona": "",
+     "ubicacion": "food Court Mesas"
+    },
+    {
+     "numero": 99,
+     "zona": "",
+     "ubicacion": "Lavalozas Food Court"
+    },
+    {
+     "numero": 100,
+     "zona": "",
+     "ubicacion": "Cochambre Food Court"
+    },
+    {
+     "numero": 101,
+     "zona": "",
+     "ubicacion": "Bodega de Meseros"
+    },
+    {
+     "numero": 102,
+     "zona": "",
+     "ubicacion": "Pasillo meseros Thai"
+    },
+    {
+     "numero": 103,
+     "zona": "",
+     "ubicacion": "Pasillo meseros Thai 2"
+    },
+    {
+     "numero": 104,
+     "zona": "",
+     "ubicacion": "Bar thai"
+    },
+    {
+     "numero": 105,
+     "zona": "",
+     "ubicacion": "Restaurante Thai"
+    },
+    {
+     "numero": 106,
+     "zona": "",
+     "ubicacion": "Baños Thai Hombres"
+    },
+    {
+     "numero": 107,
+     "zona": "",
+     "ubicacion": "Baños Thai Mujeres"
+    },
+    {
+     "numero": 108,
+     "zona": "",
+     "ubicacion": "Lobby 2 Recepción"
+    },
+    {
+     "numero": 109,
+     "zona": "",
+     "ubicacion": "Lobby 2 Recepción"
+    },
+    {
+     "numero": 110,
+     "zona": "",
+     "ubicacion": "Lobby 2 Decameron Explorer"
+    },
+    {
+     "numero": 111,
+     "zona": "",
+     "ubicacion": "Lobby 2 Boutique"
+    },
+    {
+     "numero": 112,
+     "zona": "",
+     "ubicacion": "Lobby 2 Baños Hombres"
+    },
+    {
+     "numero": 113,
+     "zona": "",
+     "ubicacion": "Lobby 2 Baños Mujeres"
+    },
+    {
+     "numero": 114,
+     "zona": "",
+     "ubicacion": "Lobby 2 Subgerencia"
+    },
+    {
+     "numero": 115,
+     "zona": "",
+     "ubicacion": "Oficina Seguridad e Higiene"
+    },
+    {
+     "numero": 116,
+     "zona": "",
+     "ubicacion": "Oficina de Mantenimiento"
+    },
+    {
+     "numero": 117,
+     "zona": "",
+     "ubicacion": "Taller de Soldadura"
+    },
+    {
+     "numero": 118,
+     "zona": "",
+     "ubicacion": "Bodega Mantenimiento"
+    },
+    {
+     "numero": 119,
+     "zona": "",
+     "ubicacion": "Taller A/A"
+    },
+    {
+     "numero": 120,
+     "zona": "",
+     "ubicacion": "Bodega Albañilería"
+    },
+    {
+     "numero": 121,
+     "zona": "",
+     "ubicacion": "Bodega Jardinería"
+    },
+    {
+     "numero": 122,
+     "zona": "",
+     "ubicacion": "Taller Electromecánica"
+    },
+    {
+     "numero": 123,
+     "zona": "",
+     "ubicacion": "Taller Preventivo"
+    },
+    {
+     "numero": 124,
+     "zona": "",
+     "ubicacion": "Bodega de Combustible"
+    },
+    {
+     "numero": 125,
+     "zona": "",
+     "ubicacion": "Carpintería"
+    },
+    {
+     "numero": 126,
+     "zona": "",
+     "ubicacion": "Carpintería"
+    },
+    {
+     "numero": 127,
+     "zona": "",
+     "ubicacion": "Bodega de Pinturas"
+    },
+    {
+     "numero": 128,
+     "zona": "",
+     "ubicacion": "Bodega de Quimicos"
+    },
+    {
+     "numero": 129,
+     "zona": "",
+     "ubicacion": "Almacen General Bodega"
+    },
+    {
+     "numero": 130,
+     "zona": "",
+     "ubicacion": "Almacen la leona Pinturas 1"
+    },
+    {
+     "numero": 131,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Pinturas 2"
+    },
+    {
+     "numero": 132,
+     "zona": "",
+     "ubicacion": "Almacen la leona hierros 1"
+    },
+    {
+     "numero": 133,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Hierros 2"
+    },
+    {
+     "numero": 134,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Cuarto de Quimicos"
+    },
+    {
+     "numero": 135,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Cuarto de Quimicos"
+    },
+    {
+     "numero": 136,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Racks 1"
+    },
+    {
+     "numero": 137,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Racks Papeleria 1"
+    },
+    {
+     "numero": 138,
+     "zona": "",
+     "ubicacion": "Almacen La Leona Racks Papeleria 1"
+    },
+    {
+     "numero": 139,
+     "zona": "",
+     "ubicacion": "Salon Kukulcan"
+    },
+    {
+     "numero": 140,
+     "zona": "",
+     "ubicacion": "Salon Kukulcan"
+    },
+    {
+     "numero": 141,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 142,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 143,
+     "zona": "",
+     "ubicacion": "CALDERAS #1"
+    },
+    {
+     "numero": 144,
+     "zona": "",
+     "ubicacion": "CALDERAS #2"
+    },
+    {
+     "numero": 145,
+     "zona": "",
+     "ubicacion": "Business Center"
+    },
+    {
+     "numero": 146,
+     "zona": "",
+     "ubicacion": "Planta Electrica"
+    },
+    {
+     "numero": 147,
+     "zona": "",
+     "ubicacion": "Planta Electrica"
+    },
+    {
+     "numero": 148,
+     "zona": "",
+     "ubicacion": "Filtros #1"
+    },
+    {
+     "numero": 149,
+     "zona": "",
+     "ubicacion": "Filtros #2"
+    },
+    {
+     "numero": 150,
+     "zona": "",
+     "ubicacion": "GENERADOR 1"
+    },
+    {
+     "numero": 151,
+     "zona": "",
+     "ubicacion": "GENERADOR 1"
+    },
+    {
+     "numero": 152,
+     "zona": "",
+     "ubicacion": "GENERADOR 2"
+    },
+    {
+     "numero": 153,
+     "zona": "",
+     "ubicacion": "GENERADOR 2"
+    },
+    {
+     "numero": 154,
+     "zona": "",
+     "ubicacion": "GENERADOR 3"
+    },
+    {
+     "numero": 155,
+     "zona": "",
+     "ubicacion": "GENERADOR 4"
+    },
+    {
+     "numero": 156,
+     "zona": "",
+     "ubicacion": "GENERADOR 5"
+    },
+    {
+     "numero": 157,
+     "zona": "",
+     "ubicacion": "Bar MAYA"
+    },
+    {
+     "numero": 158,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas Maya"
+    },
+    {
+     "numero": 159,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas Maya"
+    },
+    {
+     "numero": 160,
+     "zona": "",
+     "ubicacion": "Oficina de Steward"
+    },
+    {
+     "numero": 161,
+     "zona": "",
+     "ubicacion": "Bodega de Bares"
+    },
+    {
+     "numero": 162,
+     "zona": "",
+     "ubicacion": "Cuarto eléctrico GERENCIA"
+    },
+    {
+     "numero": 163,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 36"
+    },
+    {
+     "numero": 164,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 37"
+    },
+    {
+     "numero": 165,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 38"
+    },
+    {
+     "numero": 166,
+     "zona": "",
+     "ubicacion": "Edifc. 1 nivel 2 guardalino 39"
+    },
+    {
+     "numero": 167,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 1 Guardalino 31"
+    },
+    {
+     "numero": 168,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 - Guardalino 34"
+    },
+    {
+     "numero": 169,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 1 Guardalino 40"
+    },
+    {
+     "numero": 170,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 3 Guardalino 23"
+    },
+    {
+     "numero": 171,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 3 Guardalino 20"
+    },
+    {
+     "numero": 172,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 2 Guardalino 24"
+    },
+    {
+     "numero": 173,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 26"
+    },
+    {
+     "numero": 174,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 1 Guardalino 28"
+    },
+    {
+     "numero": 175,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 1 Guardalino 30"
+    },
+    {
+     "numero": 176,
+     "zona": "",
+     "ubicacion": "Edif. 2 Nivel 3 Guardalino 22"
+    },
+    {
+     "numero": 177,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 27"
+    },
+    {
+     "numero": 178,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 Guardalino 33"
+    },
+    {
+     "numero": 179,
+     "zona": "",
+     "ubicacion": "Edifc. 2 nivel 2 guardalino 28"
+    },
+    {
+     "numero": 180,
+     "zona": "",
+     "ubicacion": "Say 2"
+    },
+    {
+     "numero": 181,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 2 guardalino 18 3207 - 3206"
+    },
+    {
+     "numero": 182,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 1 - Cuarto eléctrico"
+    },
+    {
+     "numero": 183,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 2 - Cuarto eléctrico"
+    },
+    {
+     "numero": 184,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 3 - Cuarto eléctrico"
+    },
+    {
+     "numero": 185,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 4 - Cuarto eléctrico"
+    },
+    {
+     "numero": 186,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 1 - Guardalino 19"
+    },
+    {
+     "numero": 187,
+     "zona": "",
+     "ubicacion": "Edif. 3 Nivel 4 - Guardalino 16"
+    },
+    {
+     "numero": 188,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 1 - Cuarto eléctrico"
+    },
+    {
+     "numero": 189,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 1 -Guardalino 15"
+    },
+    {
+     "numero": 190,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 2 - Guardalino 14 (4207)"
+    },
+    {
+     "numero": 191,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 2 - Cuarto eléctrico"
+    },
+    {
+     "numero": 192,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 3 - Guardalino 13"
+    },
+    {
+     "numero": 193,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 3 - Cuarto eléctrico"
+    },
+    {
+     "numero": 194,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 4 - Guardalino 12"
+    },
+    {
+     "numero": 195,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 4 - Cuarto eléctrico"
+    },
+    {
+     "numero": 196,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 5 - Guardalino 11"
+    },
+    {
+     "numero": 197,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 5 - Cuarto eléctrico"
+    },
+    {
+     "numero": 198,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 6 - Guardalino 10"
+    },
+    {
+     "numero": 199,
+     "zona": "",
+     "ubicacion": "Edif. 4 Nivel 6 - Cuarto eléctrico"
+    },
+    {
+     "numero": 200,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 1 - Guardalino 9"
+    },
+    {
+     "numero": 201,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 1 - Cuarto de datos (5115)"
+    },
+    {
+     "numero": 202,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 2 - Guardalino 6"
+    },
+    {
+     "numero": 203,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 3 - Guardalino 3"
+    },
+    {
+     "numero": 204,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 3 - Guardalino 2"
+    },
+    {
+     "numero": 205,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 1 Guardalino (5128-5129)"
+    },
+    {
+     "numero": 206,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 3 - Guardalino 1"
+    },
+    {
+     "numero": 207,
+     "zona": "",
+     "ubicacion": "Edif. 5 Nivel 1 - Guardalino 11"
+    },
+    {
+     "numero": 208,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 2 guardalino 4207 - 4206"
+    },
+    {
+     "numero": 209,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 guardalino 5115 - 5114"
+    },
+    {
+     "numero": 210,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 guardalino 7 (5129 - 5128)"
+    },
+    {
+     "numero": 211,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas THAI"
+    },
+    {
+     "numero": 212,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas THAI"
+    },
+    {
+     "numero": 213,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas AKAN"
+    },
+    {
+     "numero": 214,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas AKAN"
+    },
+    {
+     "numero": 215,
+     "zona": "",
+     "ubicacion": "Bar AKAN"
+    },
+    {
+     "numero": 216,
+     "zona": "",
+     "ubicacion": "Bar AKAN baños"
+    },
+    {
+     "numero": 217,
+     "zona": "",
+     "ubicacion": "Bar AKAN Enfrente"
+    },
+    {
+     "numero": 218,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas MAYA"
+    },
+    {
+     "numero": 219,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas MAYA"
+    },
+    {
+     "numero": 220,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas OLIVA"
+    },
+    {
+     "numero": 221,
+     "zona": "",
+     "ubicacion": "Cuarto de bombas LA MAR"
+    },
+    {
+     "numero": 222,
+     "zona": "",
+     "ubicacion": "Cuarto eléctrico bodega expocentro"
+    },
+    {
+     "numero": 223,
+     "zona": "",
+     "ubicacion": "Cabina centro convenciones"
+    },
+    {
+     "numero": 224,
+     "zona": "",
+     "ubicacion": "Guardalino 5 (5216-5215)"
+    },
+    {
+     "numero": 225,
+     "zona": "",
+     "ubicacion": "Guardalino 4 (5227-5228)"
+    },
+    {
+     "numero": 226,
+     "zona": "",
+     "ubicacion": "Guardalino 3 (5308-5307)"
+    },
+    {
+     "numero": 227,
+     "zona": "",
+     "ubicacion": "Guardalino 17 (3307-3306)"
+    },
+    {
+     "numero": 228,
+     "zona": "",
+     "ubicacion": "Guardalino (3106-3107)"
+    },
+    {
+     "numero": 229,
+     "zona": "",
+     "ubicacion": "Guardalino 30 (2121-2120)"
+    },
+    {
+     "numero": 230,
+     "zona": "",
+     "ubicacion": "Guardalino 27 (2207-2206)"
+    },
+    {
+     "numero": 231,
+     "zona": "",
+     "ubicacion": "Guardalino 26 (2221-2220)"
+    },
+    {
+     "numero": 232,
+     "zona": "",
+     "ubicacion": "Guardalino 42 (1124-1123)"
+    },
+    {
+     "numero": 233,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 2 Guardalino 37 (1239-1240)"
+    },
+    {
+     "numero": 234,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 3 GUARDALINO 35"
+    },
+    {
+     "numero": 235,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 1 GUARDALINO 41 (1139)"
+    },
+    {
+     "numero": 236,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 1 GUARDALINO 42 (1123)"
+    },
+    {
+     "numero": 237,
+     "zona": "",
+     "ubicacion": "Guardalino 43"
+    },
+    {
+     "numero": 238,
+     "zona": "",
+     "ubicacion": "Guardalino 38 (1222)"
+    },
+    {
+     "numero": 239,
+     "zona": "",
+     "ubicacion": "Edif. 1 Nivel 1 Guardalino 32 (1350)"
+    }
+   ]
+  },
+  {
+   "nombre": "ALARMAS",
+   "titulo": "ALARMAS DE EMERGENCIA",
+   "criterios": [
+    "ESTADO GENERAL",
+    "ACTIVACIÓN / PRUEBA",
+    "COMPLETO",
+    "ESTADO FÍSICO"
+   ],
+   "equipos": [
+    {
+     "numero": 1,
+     "zona": "",
+     "ubicacion": "Restaurante La Mar"
+    },
+    {
+     "numero": 2,
+     "zona": "",
+     "ubicacion": "Restaurante Oliva"
+    },
+    {
+     "numero": 3,
+     "zona": "",
+     "ubicacion": "Restaurante Oliva"
+    },
+    {
+     "numero": 4,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 1 1149-1150"
+    },
+    {
+     "numero": 5,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 1 1139-1138"
+    },
+    {
+     "numero": 6,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 1 1123-1122"
+    },
+    {
+     "numero": 7,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 1 1107-1106"
+    },
+    {
+     "numero": 8,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 2 1207-1206"
+    },
+    {
+     "numero": 9,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 2 1223-1222"
+    },
+    {
+     "numero": 10,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 2 1239-1238"
+    },
+    {
+     "numero": 11,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 2 1250-1249"
+    },
+    {
+     "numero": 12,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 3 1351-1350"
+    },
+    {
+     "numero": 13,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 3 1340-1339"
+    },
+    {
+     "numero": 14,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 3 1324-1323"
+    },
+    {
+     "numero": 15,
+     "zona": "",
+     "ubicacion": "Edif. 1 nivel 3 1308-1307"
+    },
+    {
+     "numero": 16,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 1"
+    },
+    {
+     "numero": 17,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 2"
+    },
+    {
+     "numero": 18,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 2"
+    },
+    {
+     "numero": 19,
+     "zona": "",
+     "ubicacion": "Chack Balam Nivel 2 Cocina"
+    },
+    {
+     "numero": 20,
+     "zona": "",
+     "ubicacion": "Bar Akan"
+    },
+    {
+     "numero": 21,
+     "zona": "",
+     "ubicacion": "Gimnasio"
+    },
+    {
+     "numero": 22,
+     "zona": "",
+     "ubicacion": "Steak House"
+    },
+    {
+     "numero": 23,
+     "zona": "",
+     "ubicacion": "Lobby 1 Recepción"
+    },
+    {
+     "numero": 24,
+     "zona": "",
+     "ubicacion": "salon Tajin"
+    },
+    {
+     "numero": 25,
+     "zona": "",
+     "ubicacion": "Salon Tajin"
+    },
+    {
+     "numero": 26,
+     "zona": "",
+     "ubicacion": "Salon Koba"
+    },
+    {
+     "numero": 27,
+     "zona": "",
+     "ubicacion": "Salon Koba"
+    },
+    {
+     "numero": 28,
+     "zona": "",
+     "ubicacion": "Centro de Negocios"
+    },
+    {
+     "numero": 29,
+     "zona": "",
+     "ubicacion": "Entrada Salón Copan"
+    },
+    {
+     "numero": 30,
+     "zona": "",
+     "ubicacion": "Salon Quetzal"
+    },
+    {
+     "numero": 31,
+     "zona": "",
+     "ubicacion": "Salon Copan"
+    },
+    {
+     "numero": 32,
+     "zona": "",
+     "ubicacion": "Salon Ixchel"
+    },
+    {
+     "numero": 33,
+     "zona": "",
+     "ubicacion": "Salon Ixchel"
+    },
+    {
+     "numero": 34,
+     "zona": "",
+     "ubicacion": "Salon Ixchel Bar"
+    },
+    {
+     "numero": 35,
+     "zona": "",
+     "ubicacion": "Salon Ixchel Bar"
+    },
+    {
+     "numero": 36,
+     "zona": "",
+     "ubicacion": "Entrada a Lavanderia"
+    },
+    {
+     "numero": 37,
+     "zona": "",
+     "ubicacion": "Cafeteria de Empleados"
+    },
+    {
+     "numero": 38,
+     "zona": "",
+     "ubicacion": "Salon Kabah"
+    },
+    {
+     "numero": 39,
+     "zona": "",
+     "ubicacion": "Salon Kabah"
+    },
+    {
+     "numero": 40,
+     "zona": "",
+     "ubicacion": "SALON TIKAL"
+    },
+    {
+     "numero": 41,
+     "zona": "",
+     "ubicacion": "SALON MAYA"
+    },
+    {
+     "numero": 42,
+     "zona": "",
+     "ubicacion": "SALON UXMAL"
+    },
+    {
+     "numero": 43,
+     "zona": "",
+     "ubicacion": "SALON UXMAL"
+    },
+    {
+     "numero": 44,
+     "zona": "",
+     "ubicacion": "PASILLO UXMAL"
+    },
+    {
+     "numero": 45,
+     "zona": "",
+     "ubicacion": "SALON TULUM"
+    },
+    {
+     "numero": 46,
+     "zona": "",
+     "ubicacion": "SALON TULUM"
+    },
+    {
+     "numero": 47,
+     "zona": "",
+     "ubicacion": "LOBBY #1"
+    },
+    {
+     "numero": 48,
+     "zona": "",
+     "ubicacion": "Pasillo Centro de Convenciones"
+    },
+    {
+     "numero": 49,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 1 2105-2106"
+    },
+    {
+     "numero": 50,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 1 2119-2120"
+    },
+    {
+     "numero": 51,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 1 2140-2141"
+    },
+    {
+     "numero": 52,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 2 2241-2242"
+    },
+    {
+     "numero": 53,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 2 2219-2220"
+    },
+    {
+     "numero": 54,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 2 2205-2206"
+    },
+    {
+     "numero": 55,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2306-2307"
+    },
+    {
+     "numero": 56,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2320-2321"
+    },
+    {
+     "numero": 57,
+     "zona": "",
+     "ubicacion": "Edif. 2 nivel 3 2341-2342"
+    },
+    {
+     "numero": 58,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 1 3106"
+    },
+    {
+     "numero": 59,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 2 3207"
+    },
+    {
+     "numero": 60,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 3 3307"
+    },
+    {
+     "numero": 61,
+     "zona": "",
+     "ubicacion": "Edif. 3 nivel 4 3407"
+    },
+    {
+     "numero": 62,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 1 4106"
+    },
+    {
+     "numero": 63,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 2 4207"
+    },
+    {
+     "numero": 64,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 3 4307"
+    },
+    {
+     "numero": 65,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 4 4407"
+    },
+    {
+     "numero": 66,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 5 4507"
+    },
+    {
+     "numero": 67,
+     "zona": "",
+     "ubicacion": "Edif. 4 nivel 6 4607"
+    },
+    {
+     "numero": 68,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5107-5108"
+    },
+    {
+     "numero": 69,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5115-5116"
+    },
+    {
+     "numero": 70,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 1 5128-5127"
+    },
+    {
+     "numero": 71,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5228-5229"
+    },
+    {
+     "numero": 72,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5214-5215"
+    },
+    {
+     "numero": 73,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 2 5206-5207"
+    },
+    {
+     "numero": 74,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5307"
+    },
+    {
+     "numero": 75,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5314-5315"
+    },
+    {
+     "numero": 76,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5329-5330"
+    },
+    {
+     "numero": 77,
+     "zona": "",
+     "ubicacion": "Edif. 5 nivel 3 5329-5328"
+    },
+    {
+     "numero": 78,
+     "zona": "",
+     "ubicacion": "Pasillo Cocina Food Court 1"
+    },
+    {
+     "numero": 79,
+     "zona": "",
+     "ubicacion": "Pasillo Cocina Food Court 2"
+    },
+    {
+     "numero": 80,
+     "zona": "",
+     "ubicacion": "Food Court Restaurante 1"
+    },
+    {
+     "numero": 81,
+     "zona": "",
+     "ubicacion": "Food Court Restaurante 2"
+    },
+    {
+     "numero": 82,
+     "zona": "",
+     "ubicacion": "Food Court Restaurante 3"
+    },
+    {
+     "numero": 83,
+     "zona": "",
+     "ubicacion": "Pasillo Meseros Thai"
+    },
+    {
+     "numero": 84,
+     "zona": "",
+     "ubicacion": "Bambu Thai Baños"
+    },
+    {
+     "numero": 85,
+     "zona": "",
+     "ubicacion": "Lobby 2"
+    },
+    {
+     "numero": 86,
+     "zona": "",
+     "ubicacion": "Lobby 2"
+    },
+    {
+     "numero": 87,
+     "zona": "",
+     "ubicacion": "Bodega Líquidos Imflamables"
+    },
+    {
+     "numero": 88,
+     "zona": "",
+     "ubicacion": "Lavanderia Entrada"
+    },
+    {
+     "numero": 89,
+     "zona": "",
+     "ubicacion": "Sala de Videojuegos"
+    }
+   ]
+  }
+ ]
+}

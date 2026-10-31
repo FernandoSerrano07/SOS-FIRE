@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block atras %}<a class="atras" href="{{ url_for('equipos_index') }}">‹ Equipos</a>{% endblock %}
+{% block contenido %}
+<h1>{{ tipo.titulo|capitalize }}</h1>
+<form method="post" class="tarjeta formulario">
+  <h2>Agregar equipo</h2>
+  <label>Ubicación <input name="ubicacion" required></label>
+  <div class="dos">
+    <label>Zona <input name="zona"></label>
+    <label>N° (opcional) <input name="numero" type="number" inputmode="numeric"></label>
+  </div>
+  <button class="btn primario">Agregar</button>
+</form>
+<input id="buscar" type="search" placeholder="Buscar…" class="buscar-sola">
+<ul class="lista" id="equipos">
+{% for e in equipos %}
+  <li class="tarjeta equipo {% if not e.activo %}inactivo{% endif %}" data-texto="{{ e.numero }} {{ e.ubicacion|lower }} {{ e.zona|lower }}">
+    <details>
+      <summary><span class="num">{{ e.numero }}</span> {{ e.ubicacion }} {% if e.zona %}<small>· {{ e.zona }}</small>{% endif %}
+        {% if not e.activo %}<em>(desactivado)</em>{% endif %}</summary>
+      <form method="post" action="{{ url_for('editar_equipo', equipo_id=e.id) }}" class="formulario">
+        <label>Ubicación <input name="ubicacion" value="{{ e.ubicacion }}"></label>
+        <div class="dos">
+          <label>Zona <input name="zona" value="{{ e.zona }}"></label>
+          <label>N° <input name="numero" type="number" value="{{ e.numero }}"></label>
+        </div>
+        <div class="botones">
+          <button class="btn primario" name="accion" value="guardar">Guardar</button>
+          <button class="btn" name="accion" value="alternar">{{ 'Desactivar' if e.activo else 'Activar' }}</button>
+        </div>
+      </form>
+    </details>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById('buscar').addEventListener('input', e => {
+  const q = e.target.value.trim().toLowerCase();
+  document.querySelectorAll('#equipos .equipo').forEach(li => li.hidden = q && !li.dataset.texto.includes(q));
+});
+</script>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block contenido %}
+<p class="subtitulo">{{ proyecto.nombre if proyecto else '' }}</p>
+<div class="acciones-inicio">
+  {% for t in (proyecto.tipos if proyecto else []) %}
+    <a class="btn grande tipo-{{ loop.index }}" href="{{ url_for('nueva_inspeccion', tipo=t.id) }}">
+      + {{ t.nombre|capitalize }}
+    </a>
+  {% endfor %}
+</div>
+
+<h2>Inspecciones</h2>
+{% if not inspecciones %}
+  <p class="vacio">Todavía no hay inspecciones. Toca un botón de arriba para empezar.</p>
+{% endif %}
+<ul class="lista">
+{% for i in inspecciones %}
+  {% set r = resumen(i) %}
+  <li>
+    <a class="tarjeta fila-insp" href="{{ url_for('ver_inspeccion', insp_id=i.id) }}">
+      <div>
+        <strong>{{ i.tipo.titulo|capitalize }}</strong>
+        <small>{{ i.fecha.strftime('%d/%m/%Y') }} · {{ i.tecnico }}</small>
+        <div class="progreso"><span style="width: {{ r.pct }}%"></span></div>
+        <small>{{ r.revisados }}/{{ r.total }} revisados
+          {% if r.hallazgos %}· <b class="rojo">{{ r.hallazgos }} con hallazgos</b>{% endif %}</small>
+      </div>
+      <span class="etiqueta {{ i.estado }}">{{ 'Finalizada' if i.estado == 'finalizada' else 'En curso' }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

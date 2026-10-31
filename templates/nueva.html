@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block atras %}<a class="atras" href="{{ url_for('inicio') }}">‹ Volver</a>{% endblock %}
+{% block contenido %}
+<form method="post" class="tarjeta formulario">
+  <h1>Nueva inspección</h1>
+  <fieldset class="opciones-tipo">
+    <legend>Tipo de equipo</legend>
+    {% for t in tipos %}
+      <label class="opcion">
+        <input type="radio" name="tipo_id" value="{{ t.id }}" required
+               {% if tipo_sel == t.id or (not tipo_sel and loop.first) %}checked{% endif %}>
+        <span>{{ t.titulo|capitalize }} <small>({{ t.equipos|selectattr('activo')|list|length }} equipos)</small></span>
+      </label>
+    {% endfor %}
+  </fieldset>
+  <label>Fecha de inspección <input type="date" name="fecha" value="{{ hoy }}" required></label>
+  <label>Nombre técnico SOS FIRE <input name="tecnico" value="{{ tecnico }}" required autocomplete="name"></label>
+  <label>Nombre del encargado (cliente) <input name="encargado"></label>
+  <button class="btn primario grande">Comenzar inspección</button>
+</form>
+{% endblock %}

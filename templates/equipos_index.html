@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block contenido %}
+<h1>Catálogo de equipos</h1>
+<p class="subtitulo">Agrega, corrige o desactiva equipos. Los cambios aplican a las inspecciones nuevas y en curso.</p>
+<ul class="lista">
+{% for t in tipos %}
+  <li><a class="tarjeta fila-insp" href="{{ url_for('equipos_tipo', tipo_id=t.id) }}">
+    <div><strong>{{ t.titulo|capitalize }}</strong><small>{{ t.criterios|join(' · ')|lower }}</small></div>
+    <span class="etiqueta">{{ conteos.get(t.id, 0) }}</span></a></li>
+{% endfor %}
+</ul>
+{% endblock %}

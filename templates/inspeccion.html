@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% set cerrada = insp.estado == 'finalizada' %}
+{% block titulo %}{{ insp.tipo.nombre|capitalize }} · {{ insp.fecha.strftime('%d/%m/%Y') }}{% endblock %}
+{% block atras %}<a class="atras" href="{{ url_for('inicio') }}">‹ Inicio</a>{% endblock %}
+{% block contenido %}
+<section class="cabecera tarjeta">
+  <h1>{{ insp.tipo.titulo|capitalize }}</h1>
+  <details>
+    <summary>{{ insp.fecha.strftime('%d/%m/%Y') }} · {{ insp.tecnico }}{% if insp.encargado %} · Encargado: {{ insp.encargado }}{% endif %} <u>editar</u></summary>
+    <form method="post" action="{{ url_for('editar_datos', insp_id=insp.id) }}" class="formulario">
+      <label>Fecha <input type="date" name="fecha" value="{{ insp.fecha.isoformat() }}"></label>
+      <label>Técnico <input name="tecnico" value="{{ insp.tecnico }}"></label>
+      <label>Encargado <input name="encargado" value="{{ insp.encargado }}"></label>
+      <button class="btn">Guardar datos</button>
+    </form>
+  </details>
+  <div class="progreso grande"><span id="barra" style="width: {{ resumen.pct }}%"></span></div>
+  <p class="contador"><b id="c-rev">{{ resumen.revisados }}</b>/{{ resumen.total }} revisados ·
+    <b id="c-hall" class="rojo">{{ resumen.hallazgos }}</b> con hallazgos
+    <span id="estado-red" class="estado-red"></span></p>
+  <div class="botones">
+    <a class="btn" href="{{ url_for('exportar_excel', insp_id=insp.id) }}">⬇ Excel</a>
+    {% if cerrada %}
+      <form method="post" action="{{ url_for('reabrir', insp_id=insp.id) }}"><button class="btn">Reabrir</button></form>
+    {% else %}
+      <a class="btn primario" href="{{ url_for('firmar', insp_id=insp.id) }}">✍ Firmar y finalizar</a>
+    {% endif %}
+  </div>
+  {% if cerrada %}<p class="aviso ok">Inspección finalizada. Reábrela para hacer cambios.</p>{% endif %}
+</section>
+
+<div class="filtros">
+  <input id="buscar" type="search" placeholder="Buscar ubicación o N°…" autocomplete="off">
+  <div class="chips">
+    <button class="chip activo" data-filtro="todos">Todos</button>
+    <button class="chip" data-filtro="pendientes">Pendientes</button>
+    <button class="chip" data-filtro="hallazgos">Con ✕</button>
+  </div>
+</div>
+
+<ul id="equipos" class="lista {% if cerrada %}cerrada{% endif %}">
+{% for e in equipos %}
+  {% set r = resultados.get(e.id, {'valores': {}, 'comentario': ''}) %}
+  <li class="tarjeta equipo" data-id="{{ e.id }}" data-texto="{{ e.numero }} {{ e.ubicacion|lower }} {{ e.zona|lower }}">
+    <div class="eq-cab">
+      <span class="num">{{ e.numero }}</span>
+      <div class="eq-titulo">{{ e.ubicacion }}{% if e.zona %}<small>{{ e.zona }}</small>{% endif %}</div>
+      <span class="punto"></span>
+    </div>
+    {% for c in insp.tipo.criterios %}
+      <div class="criterio" data-criterio="{{ c }}">
+        <span class="crit-nombre">{{ c|capitalize }}</span>
+        <div class="segmentos">
+          {% for v, s in [('ok','✓'),('falta','✕'),('na','N/A')] %}
+            <button type="button" class="seg {{ v }} {% if r.valores.get(c) == v %}sel{% endif %}" data-valor="{{ v }}">{{ s }}</button>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+    <div class="eq-pie">
+      <button type="button" class="btn todo-ok">✓ Todo OK</button>
+      <button type="button" class="btn ver-com">💬 Comentario</button>
+    </div>
+    <textarea class="comentario {% if not r.comentario %}oculto{% endif %}" rows="2" placeholder="Comentarios / hallazgos…">{{ r.comentario }}</textarea>
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}
+{% block scripts %}
+<script>
+  window.INSP = {
+    id: {{ insp.id }},
+    cerrada: {{ 'true' if cerrada else 'false' }},
+    criterios: {{ insp.tipo.criterios|tojson }},
+    url: "{{ url_for('guardar_resultado', insp_id=insp.id, equipo_id=0) }}".replace(/0$/, "")
+  };
+</script>
+<script src="{{ url_for('static', filename='inspeccion.js') }}?v=1"></script>
+{% endblock %}

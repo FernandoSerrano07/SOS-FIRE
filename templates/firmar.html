@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block atras %}<a class="atras" href="{{ url_for('ver_inspeccion', insp_id=insp.id) }}">‹ Volver</a>{% endblock %}
+{% block contenido %}
+<form method="post" class="tarjeta formulario" id="form-firmas">
+  <h1>Firmas</h1>
+  <p>{{ insp.tipo.titulo|capitalize }} · {{ insp.fecha.strftime('%d/%m/%Y') }}<br>
+     {{ resumen.revisados }}/{{ resumen.total }} revisados · <b class="rojo">{{ resumen.hallazgos }}</b> con hallazgos</p>
+  {% if resumen.revisados < resumen.total %}
+    <p class="aviso error">Atención: faltan {{ resumen.total - resumen.revisados }} equipos por revisar.</p>
+  {% endif %}
+
+  <label>Firma técnico SOS FIRE ({{ insp.tecnico }})</label>
+  <div class="firma-caja"><canvas data-campo="firma_tecnico"></canvas>
+    {% if insp.firma_tecnico %}<img class="firma-previa" src="{{ insp.firma_tecnico }}" alt="firma guardada">{% endif %}
+    <button type="button" class="btn limpiar">Borrar</button></div>
+  <input type="hidden" name="firma_tecnico">
+
+  <label>Nombre del encargado <input name="encargado" value="{{ insp.encargado }}"></label>
+  <label>Firma del encargado</label>
+  <div class="firma-caja"><canvas data-campo="firma_encargado"></canvas>
+    {% if insp.firma_encargado %}<img class="firma-previa" src="{{ insp.firma_encargado }}" alt="firma guardada">{% endif %}
+    <button type="button" class="btn limpiar">Borrar</button></div>
+  <input type="hidden" name="firma_encargado">
+
+  <div class="botones">
+    <button class="btn" name="accion" value="guardar">Guardar firmas</button>
+    <button class="btn primario" name="accion" value="finalizar">Finalizar inspección</button>
+  </div>
+</form>
+<form method="post" action="{{ url_for('eliminar', insp_id=insp.id) }}" onsubmit="return confirm('¿Eliminar esta inspección por completo?')">
+  <button class="btn peligro">Eliminar inspección</button>
+</form>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='firma.js') }}?v=1"></script>{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block contenido %}
+<form method="post" class="tarjeta formulario">
+  <h1>Ingresar</h1>
+  <label>Tu nombre (técnico)
+    <input name="tecnico" autocomplete="name" value="{{ session.get('tecnico','') }}">
+  </label>
+  <label>Clave del equipo
+    <input name="clave" type="password" required autofocus>
+  </label>
+  <button class="btn primario grande">Entrar</button>
+</form>
+{% endblock %}

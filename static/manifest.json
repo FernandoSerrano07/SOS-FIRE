@@ -1,0 +1,9 @@
+{
+  "name": "SOS FIRE · Inspecciones",
+  "short_name": "SOS FIRE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f5",
+  "theme_color": "#c62828",
+  "icons": [{ "src": "/static/icono.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
