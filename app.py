@@ -346,8 +346,11 @@ def exportar_excel(insp_id):
     fila_fusionada(2, f"FORMATO DE INSPECCIÓN · {tipo.titulo}", font=Font(bold=True, size=12), alignment=centro)
     fila_fusionada(3, "Marcación: ✓ = OK · ✕ = Falta · N/A = No aplica. Ampliar cualquier hallazgo en COMENTARIOS.",
                    font=Font(italic=True, size=9))
+    ws.merge_cells(start_row=4, start_column=1, end_row=4, end_column=3)
+    ws.merge_cells(start_row=5, start_column=1, end_row=5, end_column=3)
+    ws.merge_cells(start_row=4, start_column=4, end_row=4, end_column=col_com - 2)
     ws.cell(4, 1, f"Fecha de inspección: {insp.fecha.strftime('%d/%m/%Y')}").font = Font(bold=True)
-    ws.cell(4, 3, f"Nombre técnico SOS FIRE: {insp.tecnico}").font = Font(bold=True)
+    ws.cell(4, 4, f"Técnico SOS FIRE: {insp.tecnico}").font = Font(bold=True)
     ws.cell(4, col_com - 1, "Firma técnico:").font = Font(bold=True)
     ws.cell(5, 1, f"Nombre del encargado: {insp.encargado or ''}").font = Font(bold=True)
     ws.cell(5, col_com - 1, "Firma encargado:").font = Font(bold=True)

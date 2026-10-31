@@ -10,6 +10,16 @@ formatos de inspección que antes se hacían a mano en Excel:
 Los equipos se cargaron del archivo `FORMATO DE INSPECCIÓN DECAMERON 2026.xlsx`
 (ver `data/equipos_decameron.json`) la primera vez que arranca la app.
 
+## Capturas
+
+| Inicio | Inspección | Hallazgo | Firmas |
+|---|---|---|---|
+| ![](capturas/02-inicio.png) | ![](capturas/04-inspeccion.png) | ![](capturas/05-hallazgo-con-comentario.png) | ![](capturas/07-firmas.png) |
+
+Excel exportado:
+
+![](capturas/10-excel-exportado.png)
+
 ## Qué hace
 
 - Crear una inspección (tipo, fecha, técnico, encargado).
