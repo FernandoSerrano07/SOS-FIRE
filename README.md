@@ -41,15 +41,17 @@ export DATABASE_URL=postgresql://usuario:clave@localhost/sosfire
 ## Publicar en internet (Render, gratis)
 
 1. Entra a https://render.com con tu cuenta de GitHub.
-2. **New → Blueprint** y elige este repositorio. Render lee `render.yaml` y crea
-   la app web **y** la base de datos PostgreSQL automáticamente.
-3. Cuando te pida `APP_PASSWORD`, escribe la clave que usarán los técnicos para entrar.
-4. Abre la dirección que te da Render desde el teléfono y agrégala a la pantalla de inicio.
+2. Crea una base de datos PostgreSQL gratis en https://neon.tech y copia su
+   *connection string* (`postgresql://...`).
+3. En Render: **New → Blueprint** y elige este repositorio.
+4. Pega la connection string en `DATABASE_URL` y escribe en `APP_PASSWORD` la clave
+   que usarán los técnicos para entrar.
+5. Abre la dirección que te da Render desde el teléfono y agrégala a la pantalla de inicio.
 
 ## Variables de entorno
 
 | Variable       | Para qué                                                   |
 |----------------|------------------------------------------------------------|
-| `DATABASE_URL` | Conexión a PostgreSQL (Render la pone sola).                |
+| `DATABASE_URL` | Conexión a PostgreSQL (`postgresql://...`).                |
 | `APP_PASSWORD` | Clave para entrar. Si no se define, la app queda abierta.   |
 | `SECRET_KEY`   | Clave para las sesiones (Render la genera sola).            |
