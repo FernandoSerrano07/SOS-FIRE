@@ -25,6 +25,8 @@ VALORES = {"ok": "✓", "falta": "✕", "na": "N/A"}
 def _database_url() -> str:
     url = os.environ.get("DATABASE_URL", "").strip()
     if not url:
+        if os.environ.get("RENDER"):
+            raise RuntimeError("Falta la variable DATABASE_URL (conexión a PostgreSQL).")
         return f"sqlite:///{BASE_DIR / 'sosfire_local.db'}"
     # Render/Heroku entregan "postgres://"; SQLAlchemy necesita el driver explícito.
     if url.startswith("postgres://"):
